@@ -1,6 +1,6 @@
 html, body{
-    display: grid;
-    grid-template-rows: 4em auto;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0;
     padding: 0;

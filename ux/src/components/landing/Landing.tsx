@@ -6,11 +6,11 @@ const Landing: FunctionComponent = () => {
         <Container>
             <TitleContainer>
                 <div style={{paddingLeft: '1em'}}>
-                    <Title>Hardware informatico</Title>
+                    <Title>Hardware</Title>
                 </div>
                 <div style={{paddingLeft: '1em', paddingTop: '0', marginTop: '-2em'}}>
                     <SubTitle>
-                        e moltro altro...
+                        e servizi informatici
                     </SubTitle>
                 </div>
                 <div style={{paddingLeft: '1em'}}>
