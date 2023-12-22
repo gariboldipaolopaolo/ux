@@ -5,6 +5,8 @@ import Header from "./components/header/Header";
 import Landing from "./components/landing/Landing";
 import Services from "./components/services/Services";
 import PcSection from "./components/pc/PcSection";
+import PcModding from "./components/modding/PcModding";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             <Landing/>
             <Services/>
             <PcSection/>
+            <PcModding/>
+            <Footer/>
         </div>
     </div>
   );

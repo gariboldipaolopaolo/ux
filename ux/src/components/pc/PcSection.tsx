@@ -2,7 +2,7 @@ import {Container, Description, TextContainer, Title} from "./PcSection.style";
 
 const PcSection = () => {
     return (
-        <Container>
+        <Container id={"PC"}>
             <img src={"/computer.jpg"} alt={"computer"} width={"500px"}/>
             <TextContainer>
                 <Title>{"computer e notebook su misura"}</Title>

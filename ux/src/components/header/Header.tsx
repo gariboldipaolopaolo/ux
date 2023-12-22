@@ -1,7 +1,7 @@
 import {AppName, Item, Menu, NavBar, Social} from "./Header.style";
-import {useState} from "react";
+import {FunctionComponent, useState} from "react";
 
-const Header = () => {
+const Header: FunctionComponent = () => {
     const menuItems: string[] = ['Home', 'Servizi', 'PC', 'Contatti'];
     const [active, setActive] = useState<string>('Home');
 
@@ -13,7 +13,7 @@ const Header = () => {
             <Menu>
                 {menuItems.map((item, index) => {
                     return <Item key={index} active={item ===active} onClick={() => setActive(item)}>
-                        <a href="">{item}</a>
+                        <a href={`#${item}`}>{item}</a>
                     </Item>
                 })}
             </Menu>
